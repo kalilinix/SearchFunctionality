@@ -1,0 +1,94 @@
+//[
+//  {
+//    "outputFileName": "wwwroot/js/Index.js",
+//    "inputFiles": [ "Views/Home/Index.cshtml.js" ],
+//    "minify": {
+//      "enabled": false
+//    }
+//  }
+//]
+
+[
+  {
+    "outputFileName": "wwwroot/css/ADRPortal.vendor.css",
+    "inputFiles": [
+      "wwwroot/lib/font-awesome/css/fontawesome.css",
+      "wwwroot/lib/jqueryui/themes/JQGridTheme/jquery-ui.css",
+      "wwwroot/lib/jqueryui/themes/JQGridTheme/theme.css",
+      "wwwroot/lib/jqueryui/jqgrid/css/ui.jqgrid.css",
+      "wwwroot/lib/bootstrap/dist/css/*.css",
+      "wwwroot/css/sidebar.css",
+      "wwwroot/css/site.css",
+      "wwwroot/css/jqGridModified.css",
+      "wwwroot/css/MenuPages.css"
+    ],
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/ADRPortal.vendor.min.css",
+    "inputFiles": [
+      "wwwroot/lib/font-awesome/css/fontawesome.css",
+      "wwwroot/lib/jqueryui/themes/JQGridTheme/jquery-ui.css",
+      "wwwroot/lib/jqueryui/themes/JQGridTheme/theme.css",
+      "wwwroot/lib/jqueryui/jqgrid/css/ui.jqgrid.css",
+      "wwwroot/lib/bootstrap/dist/css/*.css",
+      "wwwroot/css/sidebar.css",
+      "wwwroot/css/site.css",
+      "wwwroot/css/jqGridModified.css",
+      "wwwroot/css/MenuPages.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/ADRPortal.js",
+    "inputFiles": [
+      "wwwroot/js/site.js",
+      "Views/Shared/_Layout.cshtml.js",
+      "Views/IGServCustomerSample/CustomerList.cshtml.js",
+      "Views/IGServCustomerSample/CustomerDetails.cshtml.js",
+      "Views/**/*.js"
+    ],
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/ADRPortal.min.js",
+    "inputFiles": [
+      "wwwroot/js/site.js",
+      "Views/Shared/_Layout.cshtml.js",
+      "Views/IGServCustomerSample/CustomerList.cshtml.js",
+      "Views/IGServCustomerSample/CustomerDetails.cshtml.js",
+      "Views/**/*.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/ADRPortal.vendor.js",
+    "inputFiles": [
+      "wwwroot/lib/jquery/**/*.js",
+      "wwwroot/lib/jqueryui/jquery-ui.min.js",
+      "wwwroot/lib/jqueryui/jqgrid/js/i18n/grid.locale-en.js",
+      "wwwroot/lib/jqueryui/jqgrid/js/jquery.jqGrid.min.js",
+      "wwwroot/lib/font-awesome/jqgrid/js/jquery.jqGrid.min.js",
+      "wwwroot/lib/jqueryui/jqgrid/js/jquery.jqGrid.min.js"
+      //"wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+    ],
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/ADRPortal.vendor.min.js",
+    "inputFiles": [
+      "wwwroot/lib/jquery/**/*.js",
+      "wwwroot/lib/jqueryui/jquery-ui.min.js",
+      "wwwroot/lib/jqueryui/jqgrid/js/i18n/grid.locale-en.js",
+      "wwwroot/lib/jqueryui/jqgrid/js/jquery.jqGrid.min.js",
+      "wwwroot/lib/font-awesome/jqgrid/js/jquery.jqGrid.min.js",
+      "wwwroot/lib/jqueryui/jqgrid/js/jquery.jqGrid.min.js"
+      //"wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      //"wwwroot/lib/jqueryui/**/*.js"
+    ]
+  }
+]

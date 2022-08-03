@@ -1,0 +1,56 @@
+﻿
+.ui-jqgrid .ui-jqgrid-titlebar {
+    line-height: 25px;
+    font-size: 12pt;
+}
+
+.ui-jqgrid .ui-jqgrid-htable {
+    height: 35px;
+    font-size: 11.5pt;
+}
+
+    .ui-jqgrid .ui-jqgrid-htable th div {
+        height: auto;
+    }
+
+.ui-jqgrid .ui-jqgrid-btable {
+    table-layout: fixed;
+    font-size: 11pt;
+    line-height: 25px;
+}
+
+.ui-jqgrid .ui-pg-table {
+    font-size: 11pt;
+}
+
+.ui-jqgrid .ui-jqgrid-pager {
+    height: 28px !important;
+}
+
+.ui-widget-content {
+    background: none;
+    background-color: #F9F9F9;
+    color: #444444 !important;
+}
+
+.ui-state-default, .ui-widget-header .ui-state-default {
+    background: linear-gradient(180deg, #787878, #595959) !important;
+}
+
+.ui-th-column:hover {
+    /*border: 1px solid #0b93d5 !important;*/
+    background-image: none !important;
+    background: linear-gradient(180deg, #dddddd, #aaaaaa) !important;
+    border: 0 none;
+    border-right: 1px solid #999999;
+    color: #222222 !important;
+}
+
+.ui-jqgrid .ui-jqgrid-pager .ui-pg-button:hover,
+.ui-jqgrid .ui-jqgrid-pager .ui-pg-button:focus {
+    cursor: pointer;
+    border: none !important;
+    background: none !important;
+    background-image: none !important;
+    background-color: #acacac !important; /* 29-March-2022 MVS Starts #767676 */
+}

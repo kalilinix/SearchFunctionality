@@ -1,0 +1,92 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\images\**" />
+    <Content Remove="wwwroot\images\**" />
+    <EmbeddedResource Remove="wwwroot\images\**" />
+    <None Remove="wwwroot\images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\Index.js" />
+    <Content Remove="wwwroot\Screenshot %287%29.png" />
+    <Content Remove="wwwroot\Screenshot %288%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\Index.js" />
+    <None Include="wwwroot\lib\font-awesome\js\all.js" />
+    <None Include="wwwroot\lib\font-awesome\js\all.min.js" />
+    <None Include="wwwroot\lib\font-awesome\js\fontawesome.js" />
+    <None Include="wwwroot\lib\font-awesome\js\fontawesome.min.js" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-v4compatibility.woff2" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-ar.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-bg.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-bg1251.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-cat.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-cn.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-cs.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-da.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-de.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-dk.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-el.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-en.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-es.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-fa.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-fi.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-fr.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-gl.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-he.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-hr.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-hr1250.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-hu.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-id.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-is.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-it.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-ja.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-kr.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-lt.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-mne.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-nl.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-no.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-pl.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-pt-br.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-pt.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-ro.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-ru.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-sk.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-sr-latin.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-sr.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-sv.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-th.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-tr.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-tw.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-ua.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\i18n\grid.locale-vi.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\jquery.jqGrid.js" />
+    <None Include="wwwroot\lib\jqueryui\jqgrid\js\jquery.jqGrid.min.js" />
+    <None Include="wwwroot\lib\jqueryui\jquery-ui.js" />
+    <None Include="wwwroot\lib\jqueryui\jquery-ui.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Dapper.FastCrud" Version="3.0.46" />
+    <PackageReference Include="jQuery.jqGrid" Version="4.4.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+</Project>
